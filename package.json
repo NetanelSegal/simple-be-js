@@ -2,8 +2,10 @@
   "name": "mabar",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/app.js"
+ 
   },
   "keywords": [],
   "author": "",
