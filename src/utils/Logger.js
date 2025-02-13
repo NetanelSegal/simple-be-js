@@ -11,7 +11,7 @@ export class Logger {
     const coloredPrefix = this.colorize(prefix, colorCode);
 
     if (typeof message === 'string') {
-      return `${coloredPrefix}${message}`;
+      return `${coloredPrefix} ${message}`;
     }
 
     let objToStringify = {};
